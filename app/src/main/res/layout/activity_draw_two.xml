@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="闭环直线"/>
+            <FrameLayout
+                android:id="@+id/draw_two_oneF"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp">
+            </FrameLayout >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="矩形（逆时针顺时针方向）"/>
+            <FrameLayout
+                android:id="@+id/draw_two_twoF"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp">
+            </FrameLayout >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="圆角矩形"/>
+            <FrameLayout
+                android:id="@+id/draw_two_threeF"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp">
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="圆"/>
+            <FrameLayout
+                android:id="@+id/draw_two_fourF"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp">
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="椭圆"/>
+            <FrameLayout
+                android:id="@+id/draw_two_fiveF"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp">
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="弧形"/>
+            <FrameLayout
+                android:id="@+id/draw_two_sixF"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp">
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="文字"/>
+            <FrameLayout
+                android:id="@+id/draw_two_sevenF"
+                android:layout_width="fill_parent"
+                android:layout_height="1000dp">
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

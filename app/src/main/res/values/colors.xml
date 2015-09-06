@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent">#00000000</color>
+    
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="red">#ffff0000</color>
+    <color name="orange">#ffffae21</color>
+    <color name="green">#ff00ff00</color>
+    <color name="TRANSPARENT">#00000000</color>
+    
+    <color name="title_red">#ffbe0000</color>
+    <color name="title_pressed">#ffed0202</color>
+    <color name="tab_btn">#ff000000</color>
+    <color name="main_bac">#ffffffff</color>
+    
+    <color name="title_bg">#ffffffff</color>
+    <color name="title_text">#ff000000</color>
+    
+        <color name="base_shallow_black">#818181</color>
+    
+    
+    <color name="search_color">#ff565656</color>
+<!--  <color name="search_notice_color">#ffdfdfdf</color>-->    
+    <color name="search_notice_color">#fff4f4f4</color>
+    <color name="search_text_color">#ff898989</color>
+    <color name="home_nocontent_adapter_bac">#40000000</color>
+    <color name="search_notice_worlds_color">#ffbfbfbf</color>
+    <color name="search_nodata">#ff7d7d7d</color>
+    
+    <color name="home_data">#ff585858</color>
+    
+    <color name="clips_chose_bac">#ff474747</color>
+    <color name="choise_color">#ff303030</color>
+     <color name="me_color">#ff6a6a6a</color>
+    
+    <color name="program_choise_color">#ff1f1f1f</color>
+    
+    <color name="me_bac">#ff212121</color>
+    
+    <color name="submit_color">#ffff6400</color>
+    <color name="submit_color_btn_order">#45c0c0c0</color>
+    <color name="submit_color_btn_order_pressed">#99e0dfdf</color>
+    
+    <color name="submit_color_btn_order_up">#ff171717</color>
+    <color name="submit_color_btn_order_down">#ff787878</color>
+    
+    <color name="login_sign_up">#ff2999d9</color>
+    
+    <color name="filter_bac">#ffd9d9d9</color>
+    <color name="filter_not_choise">#ff626262</color>
+    <color name="filter_choise">#ff2f2f2f</color>
+    <color name="filter_bottom_bac">#ff2798e0</color>
+    <color name="filter_not_choise_tv">#ffcdcdcd</color>
+    
+       <!-- 暗灰色 -->
+    <color name="dimgrey">#ff696969</color>
+        <!-- 天蓝色 -->
+    <color name="gray">#ff808080</color>
+        <!-- 雪白色 -->
+    <color name="floralwhite">#FFFAF0</color>
+    
+    <color name="progress_time_color">#ffff6400</color>
+    <color name="bg_FFF1B6">#FFF1B6</color>
+    
+    <color name="text_34000000">#34000000</color>
+    <color name="text_80000000">#80000000</color>
+    <color name="text_999999">#999999</color>
+	<color name="text_666666">#666666</color>
+	<color name="text_333333">#333333</color>
+	<color name="text_ff0000">#ff0000</color>
+	<color name="text_df372f">#df372f</color>
+	<color name="text_5b5b5b">#5b5b5b</color>
+	<color name="text_d3d3d3">#d3d3d3</color>
+	<color name="text_ff6400">#ff6400</color>
+	<color name="text_f1f1f1">#f1f1f1</color>
+	<color name="text_0090ff">#0090ff</color>
+	<color name="text_e8e8e8">#e8e8e8</color>
+	<color name="text_2EA4FF">#2EA4FF</color>
+	<color name="text_1F9CDD">#1F9CDD</color>
+	<color name="text_DDDDDD">#DDDDDD</color>
+	<color name="text_E0E0E0">#E0E0E0</color>
+	<color name="text_F3F3F3">#99F3F3F3</color>
+	<color name="text_34ffffff">#34ffffff</color>
+	<color name="text_800090ff">#800090ff</color>
+	<color name="text_9a1313">#ff9a1313</color>
+	<color name="text_4c9827">#ff4c9827</color>
+	<color name="text_c8c8c8">#ffc8c8c8</color>
+	<color name="text_505050">#ff505050</color>
+	<color name="text_34232323">#34232323</color>
+	<color name="text_D4DFE2">#D4DFE2</color>
+	<color name="text_805D5B5E">#805D5B5E</color>
+	<color name="text_4e000000">#4e000000</color>
+	<color name="text_e4000000">#e4000000</color>
+	
+	<color name="text_f0f0f0">#fff0f0f0</color>
+	<color name="text_e3e3e3">#ffe3e3e3</color>
+	<color name="text_a2a2a2">#ffa2a2a2</color>
+	<color name="text_dadada">#ffdadada</color>
+	<color name="text_f5f5f5">#fff5f5f5</color>
+	<color name="text_c6c6c6">#ffc6c6c6</color>
+	<color name="text_dcdcdc">#ffdcdcdc</color>
+	<color name="text_e5e5e5">#ffe5e5e5</color>
+	<color name="text_9c9c9c">#ff9c9c9c</color>
+	
+	<color name="e0000000">#e0000000</color>
+	<color name="text_802c2c2c">#cc2c2c2c</color>
+	<color name="text_60000000">#99000000</color>
+	<color name="text_64000000">#64000000</color>
+	<color name="bag_line">#fff4f4f4</color>
+	<color name="f3f3f3">#f3f3f3</color>
+	
+	<color name="text_f4b400">#f4b400</color>
+	<color name="text_ecf0f1">#ecf0f1</color>
+	<color name="text_c7cacb">#c7cacb</color>
+	<color name="text_f37b1d">#f37b1d</color>
+	<color name="text_99a8a9">#99a8a9</color>
+	<color name="text_bdc3c7">#bdc3c7</color>
+	<color name="text_4285f4">#4285f4</color>
+	<color name="text_2271f4">#2271f4</color>
+	<color name="tetx_db4437">#db4437</color>
+	<color name="tetx_bdc0c1">#bdc0c1</color>
+	<color name="tetx_dae0e2">#dae0e2</color>
+	<color name="tetx_96a5a6">#96a5a6</color>
+	<color name="tetx_e2e9eb">#e2e9eb</color>
+	<color name="tetx_bfc5c9">#bfc5c9</color>
+	<color name="tetx_d1d5d8">#d1d5d8</color>
+	
+	<color name="text_F3B402">#F3B402</color>
+	<color name="text_666">#666</color>
+	<color name="text_0f9d58">#0f9d58</color>
+	
+	<color name="text_D4F668">#D4F668</color>
+	<color name="text_2F9DD2">#2F9DD2</color>
+	
+	 <color name="transgray">#33555555</color>
+</resources>

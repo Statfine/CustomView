@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 自定义控件 文字 -->
+    <attr name="titleText" format="string" />
+    <attr name="titleTextColor" format="color" />
+    <attr name="titleTextBackgroundColor" format="color" />
+    <attr name="titleTextSize" format="dimension" />
+
+    <declare-styleable name="CustomTitleView">
+        <attr name="titleText" />
+        <attr name="titleTextColor" />
+        <attr name="titleTextBackgroundColor" />
+        <attr name="titleTextSize" />
+    </declare-styleable>
+
+
+
+    <!-- 自定义控件 图文 -->
+    <attr name="titleImgText" format="string" />
+    <attr name="titleImgTextSize" format="dimension" />
+    <attr name="titleImgTextColor" format="color" />
+    <attr name="image" format="reference" />
+    <attr name="imageScaleType">
+        <enum name="fillXY" value="0" />
+        <enum name="center" value="1" />
+    </attr>
+
+    <declare-styleable name="CustomImageView">
+        <attr name="titleImgText" />
+        <attr name="titleImgTextSize" />
+        <attr name="titleImgTextColor" />
+        <attr name="image" />
+        <attr name="imageScaleType" />
+    </declare-styleable>
+
+
+    <!-- 自定义控件 progress -->
+    <attr name="firstColor" format="color"/>
+    <attr name="secondColor" format="color"/>
+    <attr name="circleWidth" format="dimension"/>
+    <attr name="speed" format="integer"/>
+    <declare-styleable name="CustomProgressBar">
+        <attr name="firstColor" />
+        <attr name="secondColor" />
+        <attr name="circleWidth" />
+        <attr name="speed" />
+    </declare-styleable>
+
+
+
+    <!-- 自定义控件 音量控制 -->
+    <attr name="volumFirstColor" format="color" />
+    <attr name="volumSecondColor" format="color" />
+    <attr name="volumCircleWidth" format="dimension" />
+    <attr name="dotCount" format="integer" />
+    <attr name="splitSize" format="integer" />
+    <attr name="bg" format="reference"></attr>
+    <declare-styleable name="CustomVolumControlBar">
+        <attr name="volumFirstColor" />
+        <attr name="volumSecondColor" />
+        <attr name="volumCircleWidth" />
+        <attr name="dotCount" />
+        <attr name="splitSize" />
+        <attr name="bg" />
+    </declare-styleable>
+
+</resources>

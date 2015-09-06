@@ -1,0 +1,103 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="自定义控件，自定义View"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"/>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_graphics_one_step"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Graphics One（概述及基本几何图形绘制）"/>
+
+            <!--圆角-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="10dp"
+                android:padding="2dp"
+                android:background="@drawable/clips_radio"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                >
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/clips_radio_red"
+                    >
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_graphics_two_step"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Graphics Two（路径及文字）"/>
+
+            <Button
+                android:id="@+id/btn_graphics_three_step"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Graphics Three（区域Range）"/>
+
+            <Button
+                android:id="@+id/btn_graphics_four_step"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Graphics Four（canvas变换与操作）"/>
+
+            <Button
+                android:id="@+id/btn_one_step"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="自定义View起步一"/>
+            <Button
+                android:id="@+id/btn_two_step"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="自定义View起步二"/>
+            <Button
+                android:id="@+id/btn_three_step"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="自定义View起步三"/>
+            <Button
+                android:id="@+id/btn_four_step"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="自定义View起步四"/>
+
+            <Button
+                android:id="@+id/btn_one_view"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="自动换行布局"/>
+
+            <Button
+                android:id="@+id/btn_two_view"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="拖动"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

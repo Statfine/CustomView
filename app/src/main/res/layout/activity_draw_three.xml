@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Range区域（交集，合集）"/>
+
+            <RadioGroup
+                android:id="@+id/radioGroup2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/radioGroup1"
+                android:layout_marginRight="15dp" >
+
+                <RadioButton
+                    android:id="@+id/radioGroup2Button0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="0(最终区域为region1 与 region2不同的区域)" />
+
+                <RadioButton
+                    android:id="@+id/radioGroup2Button1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1(最终区域为region1 与 region2相交的区域)" />
+
+                <RadioButton
+                    android:id="@+id/radioGroup2Button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2(最终区域为region1 与 region2组合一起的区域)" />
+
+                <RadioButton
+                    android:id="@+id/radioGroup2Button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3(最终区域为region1 与 region2相交之外的区域)" />
+
+                <RadioButton
+                    android:id="@+id/radioGroup2Button4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4(最终区域为region2 与 region1不同的区域)" />
+
+                <RadioButton
+                    android:id="@+id/radioGroup2Button5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5(最终区域为为region2的区域)" />
+            </RadioGroup>
+
+
+            <FrameLayout
+                android:id="@+id/draw_three_oneF"
+                android:layout_width="200dp"
+                android:layout_height="200dp">
+            </FrameLayout >
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

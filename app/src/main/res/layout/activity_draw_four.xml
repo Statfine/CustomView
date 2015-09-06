@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Canvas和平移后的Canvas"/>
+            <FrameLayout
+                android:id="@+id/draw_four_oneF"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp">
+            </FrameLayout >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="旋转"/>
+            <FrameLayout
+                android:id="@+id/draw_four_twoF"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp">
+            </FrameLayout >
+
+            <FrameLayout
+                android:id="@+id/draw_four_threeF"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp">
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/draw_four_fourF"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp">
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
